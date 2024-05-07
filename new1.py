@@ -13,7 +13,7 @@ class Bank:
         print('Total Available Balance:', total_balance)    
 
     def add_user(self, user):
-        user.account_number = f'{len(self.users)+1:05d}'  # Unique account number
+        user.account_number = f'{len(self.users)+1:05d}' 
         self.users.append(user)
 
     def delete_user(self, user):
